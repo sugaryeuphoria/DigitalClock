@@ -1,0 +1,25 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: system_ui;
+    background-color: #fff;
+    color:#000;
+}
+
+.wrapper{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+    font-weight: bolder;
+}
+
+.day,
+.time
+{
+    text-align:center;
+}
